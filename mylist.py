@@ -16,5 +16,17 @@ print("banana" in list)
 # insert
 list.insert(3 , "watermelon")
 
+list.append("orange")
+
+# Loop through the thislists and print the values
+for item in list :
+    print(item)
+
+# Remove "banana" from the list
+list.remove("banana")
+
+for item in list:
+    print(item)
+
 
 
